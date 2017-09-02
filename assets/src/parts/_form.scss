@@ -1,0 +1,15 @@
+.form {
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 35px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  line-height: 60px;
+  /* Приближение из-за подстановки шрифтов */
+  &__general--img {
+    position: absolute;
+  }
+  &__general--text {
+    position: relative;
+  }
+}

@@ -1,0 +1,37 @@
+.menu {
+    &--icon {
+   margin-left: 14%;
+ }
+  &__text {
+    display: inline;
+    font-size: 13.92px;
+    font-weight: 500;
+    /* line-height: 40px; */
+    /* text-align: left; */
+    transform: scaleY(1.0054);
+    list-style-type: none;
+    line-height: 40px;
+    margin-left: 48px;
+    &__text--next {
+      padding: 0 50px;
+    }
+    &--col {
+      font-family: Lato;
+      color: #fffffe;
+      font-size: 13.92px;
+      /* Приближение из-за подстановки шрифтов */
+      font-weight: 500;
+      line-height: 40px;
+      /* Приближение из-за подстановки шрифтов */
+      text-align: left;
+      transform: scaleY(1.0054);
+      /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+      padding: 0px 4px;
+    }
+    &__text--icon {
+      background-color: #ffffff;
+      width: 86px;
+      height: 2px;
+    }
+  }
+}
